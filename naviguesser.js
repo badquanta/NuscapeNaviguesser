@@ -235,7 +235,7 @@ ui.action.Reload.on('activate', () => { if (ui.webView) { ui.webView.reload(); }
 ui.action.Stop.on('activate', () => { return ui.webView.stopLoading(); });
 ui.action.Home.on('activate', () => { ui.webView.loadUri('http://theoldnet.com'); })
 ui.action.ShowHistory.on('activate', () => { ui.HistoryWin.show(); });
-ui.status.push(0, `Nuscape naviguess, Webkit ${WebKit2.getMajorVersion()}.${WebKit2.getMinorVersion()}`);
+ui.status.push(0, `Nuscape naviguesser, Webkit ${WebKit2.getMajorVersion()}.${WebKit2.getMinorVersion()}`);
 
 function main() {
   var startPage;
