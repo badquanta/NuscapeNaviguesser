@@ -1,1 +1,1 @@
-sudo apt install npm libgirepository1.0-dev libgirepository1.0-1 && npm install
+sudo apt install npm libgirepository1.0-dev libcairo-dev && npm install
