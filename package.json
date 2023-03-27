@@ -1,0 +1,16 @@
+{
+  "name": "nuscape",
+  "version": "0.0.1",
+  "description": "nuscape naviguess",
+  "main": "naviguess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BadQuanta",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "debug": "^4.3.4",
+    "node-gtk": "^0.11.0"
+  }
+}
