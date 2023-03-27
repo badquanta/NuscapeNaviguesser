@@ -1,1 +1,1 @@
-sudo apt install npm libglib2.0-dev && npm install
+sudo apt install npm libgirepository1.0-dev libgirepository1.0-1 && npm install
