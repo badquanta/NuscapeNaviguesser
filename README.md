@@ -18,6 +18,21 @@ Basically the browser can load a URL typed into the `location` bar. The `back`, 
 
 I am not joking, basically nothing complex is implemented.  Most websites I've tested it with "just work" out of the box with WebKit but some don't quite work right.  For instance loading Facebook *mostly* works fine; but there are cases where it doesn't like trying to interact with comment threads.
 
+## Installation
+
+1. Clone this repository
+
+    git clone https://github.com/badquanta/NuscapeNaviguesser && cd NuscapeNaviguesser
+
+2. Install dependencies
+This requires node, npm, libgirepository1.0-dev, & libcairo-dev (debian package names) before npm install can be run.  I've added a simple bash script that'll call `sudo apt install npm... && npm install`.. or just open `apt-install-deps.sh` to see what it does.
+
+   ./apt-install-deps.sh
+
+3. That's it; just run the program
+
+  ./naviguesser
+
 ## Usage
 
 The main file is `naviguesser.js`; and the repo includes a symlink to this file as `naviguesser`. It's marked as executable and has a hashbang at the top so you should be able to run it from the command line like so:
