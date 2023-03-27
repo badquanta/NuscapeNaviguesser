@@ -6,6 +6,10 @@
 
 I do not own any of the copyrights to any of the icons, they belong to whomever currently owns what was Netscape/AOL and I can't be bothered to look that up.  This project exists only to recreate the look of the original browser in a form of homage to it and the web of yesteryear it birthed.
 
+## Screenshot
+
+![Screenshot](Screenshot_2023-03-26_10-36-47.png "A screenshot")
+
 ## Why?
 
 I'm an older millennial & I have a pretty heavy case of nostalgia. My only personal usecase for this is to grab screenshots of websites that the original Netscape Navigator could not properly load.  At the moment it accomplishes this goal. I have no real plans on completing further browser functionality. It is just a GTK application with a WebKit view and some event handlers plugged together to make a semi-working web browser.
@@ -22,22 +26,22 @@ I am not joking, basically nothing complex is implemented.  Most websites I've t
 
 1. Clone this repository
 
-    git clone https://github.com/badquanta/NuscapeNaviguesser && cd NuscapeNaviguesser
+        git clone https://github.com/badquanta/NuscapeNaviguesser && cd NuscapeNaviguesser
 
 2. Install dependencies
 This requires node, npm, libgirepository1.0-dev, & libcairo-dev (debian package names) before npm install can be run.  I've added a simple bash script that'll call `sudo apt install npm... && npm install`.. or just open `apt-install-deps.sh` to see what it does.
 
-   ./apt-install-deps.sh
+        ./apt-install-deps.sh
 
 3. That's it; just run the program
 
-  ./naviguesser
+        ./naviguesser
 
 ## Usage
 
 The main file is `naviguesser.js`; and the repo includes a symlink to this file as `naviguesser`. It's marked as executable and has a hashbang at the top so you should be able to run it from the command line like so:
 
-    ./naviguesser [uri]
+        ./naviguesser [uri]
 
 If you don't specify a URL the browser will automatically load `http://theoldnet.com` because of course this is all about the internet of old.
 
@@ -45,7 +49,7 @@ If you don't specify a URL the browser will automatically load `http://theoldnet
 
 While figuring out how to wire up events and get certain asthetics working I added a Node REPL console that is accessible via the `--repl` command line switch. To access it just run the program like so:
 
-    ./naviguesser --repl [uri]
+        ./naviguesser --repl [uri]
 
 ### Verbose debugging output
 
