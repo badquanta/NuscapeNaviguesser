@@ -1,1 +1,1 @@
-sudo apt install npm
+sudo apt install npm gobject-introspection && npm install
