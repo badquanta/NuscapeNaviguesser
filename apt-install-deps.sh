@@ -1,1 +1,1 @@
-sudo apt install npm gobject-introspection && npm install
+sudo apt install npm libglib2.0-dev && npm install
