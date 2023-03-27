@@ -16,7 +16,7 @@ I'm an older millennial & I have a pretty heavy case of nostalgia. My only perso
 
 ## What works? ALMOST NOTHING
 
-Basically the browser can load a URL typed into the `location` bar. The `back`, `forward`, `home`, `reload`, and `stop` buttons on the toolbar (and menu) have been linked to the corrisponding actions on the WebKit view with minimal additional logic (such as updating the location bar, status bar & load progress.)  Technically you can open up and view the "browser history" window; but it doesn't nothing more than show the history.
+Basically the browser can load a URL typed into the `location` bar. __MAKE SURE YOU TYPE IN `http://` part too, it doesn't do that for you.__ The `back`, `forward`, `home`, `reload`, and `stop` buttons on the toolbar (and menu) have been linked to the corrisponding actions on the WebKit view with minimal additional logic (such as updating the location bar, status bar & load progress.)  Technically you can open up and view the "browser history" window; but it doesn't do anything more than show the history, you can't even activate the links it shows.
 
 ## What doens't work: ALMOST EVERYTHING
 
